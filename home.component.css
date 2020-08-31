@@ -1,0 +1,91 @@
+
+.main{
+  width: 100%;
+  margin-top:0px;
+  height:950px;
+  background-color: #f1f1fa;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+  background-image: url("desk.png");background-repeat: no-repeat;
+  background-position: bottom;
+
+}
+.header {
+  background-color: #f6f4f4;
+  background-image: url("bco1.png");
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  display: inline-block;
+  width: 100%;
+
+
+}
+.nav{
+  display: inline-block;
+
+  margin: 8px 8px 8px 0px;
+
+  float: right;
+
+}
+.nav ul{
+  list-style-type: none;
+  display: inline;
+  padding: 5px 5px;
+
+}
+.nav ul a li{
+  list-style-type: none;
+  display:inline-table;
+  margin: 20px 10px 30px 0px;
+  padding: 6px 3px;
+  color:black;
+}
+.nav ul a li:hover{
+  list-style: none;
+  display: inline-table;
+  margin: 0px 10px 20px 10px;
+  padding: 6px 3px;
+  color: #ff0000;
+}
+.ul li{
+  display: inline-flex;
+}
+.para{
+  Color:black;
+  display:inline-block;
+  text-align: center;
+  font-size: 25px;
+
+}
+.new1{
+  border: 1.5px solid blue;
+  margin: 1.5px 0px 0px 0px;
+}
+.new2{
+  border: 1.5px solid green;
+  margin:2.5px 0px 0px 0px;
+}
+.new3{
+  border: 1.5px solid yellow;
+  margin-top: 2.5px;
+}
+.mess{
+  margin: 60px 180px 0px 600px;
+  font-size: xx-large;
+  font-style: oblique;
+  color: #2828cf;
+
+}
+.line{
+  margin: 20px 0px 0px 350px;
+  font-size: x-large;
+
+  font-style: oblique;
+  color: brown;
+}

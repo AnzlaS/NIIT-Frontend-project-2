@@ -1,0 +1,78 @@
+.menu{
+
+  text-align: center;
+background-image: url("bco1.png");
+  background-repeat: no-repeat;
+  color: #2828cf;
+  background-color: #f6f4f4;
+
+}
+.menu ul{
+  display: inline-flex;
+  list-style: none;
+  color:whitesmoke;
+  margin-left: 310px;
+  padding: 10px;
+  padding-left: 20px;
+
+}
+.menu ul li{
+  width: 120px;
+  margin: 10px;
+  padding: 10px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: black;
+}
+.active,.menu ul li:hover{
+  background-color: tomato;
+  border-radius: 3px;
+}
+.menu .fa{
+  margin-right: 8px;
+}
+.sub1{
+  display:none;
+}
+.menu ul li:hover .sub1{
+  display: block;
+  position: absolute;
+  background-color:whitesmoke;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.menu ul li:hover .sub1 ul{
+  display: block;
+  margin: 10px;
+}
+.menu ul li:hover .sub1 ul li{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted white;
+  background: transparent;
+  border-radius: 0px;
+
+  text-align: left;
+}
+.menu ul li:hover .sub1 ul li:last-child{
+  border-bottom: none;
+}
+.menu ul li:hover .sub1 ul li a:hover{
+  color: maroon;
+}
+.fa-angle-right{
+  float: right;
+}
+.new1{
+  border: 1.5px solid blue;
+  margin:1.5px 0px 0px 0px;
+}
+.new2{
+  border: 1.5px solid green;
+  margin:2.5px 0px 0px 0px;
+}
+.new3{
+  border: 1.5px solid yellow;
+  margin:2.5px 0px 0px 0px;
+}

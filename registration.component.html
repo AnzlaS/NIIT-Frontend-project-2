@@ -1,0 +1,46 @@
+
+<form [formGroup]="usersaveform" #saveuser (ngSubmit)="saveUser(saveUser)" name="ff" action="home">
+  <div class="main">
+    <header>
+      <div class="head">
+        <div class="font">
+          Registration</div>
+      </div>
+    </header>
+    <hr class="new1">
+    <hr class="new2">
+    <hr class="new3">
+
+    <div class="box">
+      <div class="form">
+        <label>Name</label><input type="text" placeholder="Complete Name" formControlName="username" data-toggle="tooltip"
+               data-placement="right">
+        <div class="alert alert-danger" *ngIf = "(UserName.touched) && (UserName.invalid)"
+             style="margin-top: 5px;">
+          <span *ngIf="UserName.errors.required">User Name is Required</span>
+          <span *ngIf = "UserName.errors.minlength">
+                        MinLength Error
+          </span></div>
+        <br>
+<br>
+        <label>Contact </label><input type="text" placeholder="Contact Number" ><br>
+        <br>
+        <label>Email</label><input type="text" placeholder="Email"  formControlName="useremail" data-toggle="tooltip" data-placement="right" >
+          <div class="alert alert-danger" *ngIf = "(UserEmail.touched) && (UserEmail.invalid)"
+               style="margin-top: 5px;">
+            <span *ngIf="UserEmail.errors.required">User Email is Required</span>
+            <span *ngIf = "UserEmail.errors.email">
+                        Invalid Email Format
+
+            </span>></div>
+        <br><br>
+        <label>Password</label><input type="password" placeholder="Password" >
+        <br> <br><br>
+        <div class="button1">
+          <input type="submit" value="Submit"></div>
+      </div>
+    </div>
+  </div>
+
+
+</form>
